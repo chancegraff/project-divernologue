@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="660px" height="660px" viewbox="0 0 660 660">
+  <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M20 20 650 20 650 650 20 650 20 20Z"/>
+  <path fill-rule="evenodd" stroke="rgb(0, 0, 0)" stroke-width="10px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M516 386C454 360 407 388 377 406 332 434 269 523 339 588 382 628 462 617 506 583 571 533 595 419 516 386ZM365 318C405 257 496 236 553 280 600 316 607 386 584 435 550 509 434 529 376 478 324 432 329 373 365 318ZM425 100C381 50 296 41 248 90 198 141 214 227 263 270 298 300 378 290 399 279 460 246 474 157 425 100ZM532 143C450 129 374 172 387 278 392 320 418 366 472 372 550 380 612 328 610 260 608 206 597 154 532 143ZM94 274C57 312 46 406 116 439 207 482 287 455 322 410 358 362 326 315 284 288 237 257 143 224 94 274ZM173 122C125 132 83 174 85 227 89 316 271 399 344 339 392 299 407 203 332 150 294 123 229 110 173 122ZM142 398C84 459 105 560 173 591 224 614 292 613 335 569 377 525 357 419 303 379 252 341 180 359 142 398Z"/>
+  <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M217 192 217 461 440 461 440 192 217 192Z"/>
+  <path fill-rule="evenodd" stroke="rgb(0, 0, 0)" stroke-width="20px" stroke-linecap="square" stroke-linejoin="miter" fill="none" d="M10 10 660 10 660 660 10 660 10 10Z"/>
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="500px" x="186px" y="523px">
+    <tspan font-size="500px" font-family="Helvetica Neue" font-weight="bold" fill="#000000">D</tspan>
+  </text>
+  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="500px" x="166px" y="503px">
+    <tspan font-size="500px" font-family="Helvetica Neue" font-weight="bold" fill="#FFFFFF">D</tspan>
+  </text>
+</svg>
