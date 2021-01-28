@@ -1,26 +1,6 @@
 @import "./variables.scss";
 
 /* Character Styles */
-.header-on-dark {
-  font-family: $font-family-normal;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-bold;
-  font-size: $font-size-large;
-  line-height: $line-spacing-large;
-  letter-spacing: $character-spacing-large;
-  color: $light;
-}
-
-.header-on-light {
-  font-family: $font-family-normal;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-bold;
-  font-size: $font-size-large;
-  line-height: $line-spacing-large;
-  letter-spacing: $character-spacing-large;
-  color: $dark-blue;
-}
-
 .filled-input-text {
   font-family: $font-family-normal;
   font-style: $font-style-normal;
@@ -29,26 +9,6 @@
   line-height: $line-spacing-normal;
   letter-spacing: $character-spacing-normal;
   color: $light-highlight;
-}
-
-.paragraph-on-dark {
-  font-family: $font-family-normal;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-normal;
-  font-size: $font-size-normal;
-  line-height: $line-spacing-normal;
-  letter-spacing: $character-spacing-normal;
-  color: $light;
-}
-
-.paragraph-on-light {
-  font-family: $font-family-normal;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-normal;
-  font-size: $font-size-normal;
-  line-height: $line-spacing-normal;
-  letter-spacing: $character-spacing-normal;
-  color: $dark;
 }
 
 .filled-button-text {
@@ -69,22 +29,6 @@
   line-height: $line-spacing-small;
   letter-spacing: $character-spacing-small;
   color: $light;
-}
-
-.bg-dark {
-  background: $dark;
-}
-
-.bg-light-blue {
-  background: $light-blue;
-}
-
-.bg-light {
-  background: $light;
-}
-
-.bg-light-camel {
-  background: $light-camel;
 }
 
 html,
@@ -121,16 +65,6 @@ header {
 
 main {
   width: 100%;
-
-  & > div {
-    display: block;
-    padding: $sizing-xlarge $sizing-large;
-
-    & > img {
-      display: block;
-      margin: 0 auto 80px auto;
-    }
-  }
 }
 
 footer {

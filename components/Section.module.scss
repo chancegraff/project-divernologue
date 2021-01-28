@@ -1,0 +1,22 @@
+@import "../styles/variables.scss";
+
+.section {
+  display: block;
+  padding: $sizing-xlarge $sizing-large;
+}
+
+.bg-dark {
+  background: $dark;
+}
+
+.bg-light {
+  background: $light;
+}
+
+.bg-light-blue {
+  background: $light-blue;
+}
+
+.bg-light-camel {
+  background: $light-camel;
+}
