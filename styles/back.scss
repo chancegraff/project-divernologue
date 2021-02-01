@@ -1,0 +1,20 @@
+/* Character Styles */
+.filled-input-text {
+  font-family: $font-family-normal;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-normal;
+  line-height: $line-spacing-normal;
+  letter-spacing: $character-spacing-normal;
+  color: $light-highlight;
+}
+
+.filled-button-text {
+  font-family: $font-family-normal;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-normal;
+  line-height: $line-spacing-small;
+  letter-spacing: $character-spacing-normal;
+  color: $light;
+}
