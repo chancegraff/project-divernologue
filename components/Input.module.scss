@@ -1,10 +1,11 @@
-/* Character Styles */
-.filled-button-text {
+@import "../styles/variables.scss";
+
+.input {
   font-family: $font-family-normal;
   font-style: $font-style-normal;
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-normal;
   font-size: $font-size-normal;
-  line-height: $line-spacing-small;
+  line-height: $line-spacing-normal;
   letter-spacing: $character-spacing-normal;
-  color: $light;
+  color: $light-highlight;
 }

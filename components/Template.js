@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "./Template.module.scss";
 
-export default function Splash({
+export default function Template({
   children,
 }) {
   return (

@@ -3,7 +3,7 @@ import Hero from "../sections/Hero";
 import Info1 from "../sections/Info1";
 import Info2 from "../sections/Info2";
 import Info3 from "../sections/Info3";
-import Form from "../sections/Form";
+import Pledge from "../sections/Pledge";
 
 export default function Splash() {
   return (
@@ -12,7 +12,7 @@ export default function Splash() {
       <Info1 />
       <Info2 />
       <Info3 />
-      <Form />
+      <Pledge />
     </Template>
   )
 }
