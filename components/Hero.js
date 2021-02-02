@@ -1,3 +1,4 @@
+import { HERO_TITLE, HERO_PARAGRAPH } from "utils/constants";
 import IllustrationMessagesSVG from "svg/illustration-messages.svg";
 import Section from "./groups/Section";
 import Title from "./texts/Title";
@@ -9,8 +10,8 @@ export default function Hero() {
   return (
     <Section className={styles.section}>
       <Illustration svg={IllustrationMessagesSVG} />
-      <Title className={styles.title}>Promoting neurodiversity in the workplace</Title>
-      <Paragraph className={styles.paragraph}>Divernologue raises awareness and support of neurodiverse people in organizations to transform how we cooperate.</Paragraph>
+      <Title className={styles.title}>{HERO_TITLE}</Title>
+      <Paragraph className={styles.paragraph}>{HERO_PARAGRAPH}</Paragraph>
     </Section>
   );
 }

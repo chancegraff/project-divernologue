@@ -4,7 +4,7 @@ import styles from "./Button.module.scss";
 export default function Button({
   className,
   buttonType = "submit",
-  pre: Pre,
+  pre: Pre = () => <></>,
   children,
 }) {
   return (
