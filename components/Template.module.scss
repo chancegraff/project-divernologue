@@ -7,7 +7,7 @@
   background: $light;
   box-shadow: 0px 5px 10px rgba($dark, 0.25);
   z-index: 2;
-  padding: $sizing-normal $sizing-large;
+  padding: $sizing-20 $sizing-40;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,16 +22,16 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: $sizing-normal $sizing-large;
+  padding: $sizing-20 $sizing-40;
   background: $dark;
 }
 
 .small {
-  font-family: $font-family-normal;
+  font-family: $font-family-helvetica;
   font-style: $font-style-normal;
-  font-weight: $font-weight-normal;
-  font-size: $font-size-small;
-  line-height: $line-spacing-small;
-  letter-spacing: $character-spacing-small;
+  font-weight: $weight-normal;
+  font-size: $font-size-24;
+  line-height: $line-spacing-40;
+  letter-spacing: $letter-spacing-small;
   color: $light;
 }

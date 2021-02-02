@@ -1,6 +1,9 @@
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { compose, curry } from "ramda";
 
+/**
+ * Checks input before setting state using the provided validateValue function.
+ */
 export default function useUserInput(
   validateValue = (v) => v,
   defaultValue = "",
@@ -9,8 +12,8 @@ export default function useUserInput(
 
   const getTarget = useCallback(({ target }) => target, []);
   const getValue = useCallback(({ value }) => value, []);
-  const ignoreFalse = useCallback(curry((f, v) => v === false ? null : f(v)), []);
-  const setValidatedState = useCallback(compose(ignoreFalse(setState), validateValue, getValue, getTarget), []);
+  const ignoreFalseOr = useCallback(curry((f, v) => v === false ? null : f(v)), []);
+  const setValidatedState = useCallback(compose(ignoreFalseOr(setState), validateValue, getValue, getTarget), []);
 
-  return [state, setValidatedState];
+  return useMemo(() => [state, setValidatedState], [state]);
 }

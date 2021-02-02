@@ -1,4 +1,7 @@
 import Head from "next/head";
+import LogoLongSVG from "../svg/logo-long.svg";
+import LogoSmallSVG from "../svg/logo-small.svg";
+import SocialInstagramSVG from "../svg/social-instagram.svg";
 import styles from "./Template.module.scss";
 
 export default function Template({
@@ -14,15 +17,15 @@ export default function Template({
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <header className={styles.header}>
-        <a><img src="/logo-long.svg" /></a>
-        <a><img src="/social-instagram.svg" /></a>
+        <a><LogoLongSVG /></a>
+        <a><SocialInstagramSVG /></a>
       </header>
       <main className={styles.main}>
         {children}
       </main>
       <footer className={styles.footer}>
         <small className={styles.small}>© 2021 Divernologue LLC</small>
-        <img src="/logo-small.svg" />
+        <LogoSmallSVG />
       </footer>
     </div>
   )

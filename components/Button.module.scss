@@ -1,0 +1,29 @@
+@import "../styles/variables.scss";
+
+.filled {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: $light;
+  background: $brand-blue;
+  border-radius: $radius-normal;
+  padding: $sizing-20 $sizing-40;
+  font-family: $font-family-helvetica;
+  font-style: $font-style-normal;
+  font-weight: $weight-medium;
+  font-size: $font-size-26;
+  line-height: $line-spacing-40;
+  letter-spacing: $letter-spacing-normal;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.pre {
+  flex: 1 0 40px;
+  width: 40px;
+  height: 40px;
+  color: $light;
+  margin-right: 40px;
+}

@@ -12,7 +12,7 @@ export default function Title({
   children,
 }) {
   return (
-    <h1 className={classNames(className, styles[colorName])}>
+    <h1 className={classNames(className, styles.title, styles[colorName])}>
       {children}
     </h1>
   );

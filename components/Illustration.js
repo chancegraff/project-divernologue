@@ -1,19 +1,25 @@
 import styles from "./illustration.module.scss";
 import classNames from "classnames";
 
-export const IllustrationSource = {
-  MESSAGES: "/illustration-messages.svg",
-  SUCCESS: "/illustration-success.svg",
-  IDEA: "/illustration-idea-group.svg",
-  RECRUITMENT: "/illustration-recruitment-group.svg",
-  FALLING: "/illustration-falling-group.svg",
+import IllustrationFallingSVG from "../svg/illustration-falling-group.svg";
+import IllustrationIdeaSVG from "../svg/illustration-idea-group.svg";
+import IllustrationMessagesSVG from "../svg/illustration-messages.svg";
+import IllustrationRecruitmentSVG from "../svg/illustration-recruitment-group.svg";
+import IllustrationSuccessSVG from "../svg/illustration-success.svg";
+
+export const IllustrationTypes = {
+  FALLING: IllustrationFallingSVG,
+  IDEA: IllustrationIdeaSVG,
+  MESSAGES: IllustrationMessagesSVG,
+  RECRUITMENT: IllustrationRecruitmentSVG,
+  SUCCESS: IllustrationSuccessSVG,
 };
 
 export default function Illustration({
   className,
-  sourceName,
+  illustrationName: IllustrationName,
 }) {
   return (
-    <img className={classNames(className, styles.illustration)} src={sourceName} />
+    <IllustrationName className={classNames(className, styles.illustration)} />
   );
 }
