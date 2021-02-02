@@ -1,4 +1,4 @@
-@import "../styles/variables.scss";
+@import "styles/variables.scss";
 
 .paragraph {
   font-family: $font-family-helvetica;
@@ -7,20 +7,4 @@
   font-size: $font-size-28;
   line-height: $line-spacing-45;
   letter-spacing: $letter-spacing-normal;
-}
-
-.margin-top {
-  margin-top: $sizing-40;
-}
-
-.margin-bottom {
-  margin-bottom: $sizing-40;
-}
-
-.on-dark {
-  color: $light;
-}
-
-.on-light {
-  color: $dark;
 }

@@ -1,11 +1,9 @@
-@import "../styles/variables.scss";
+@import "styles/variables.scss";
 
-.filled {
+.button {
   display: flex;
   align-items: center;
   text-align: left;
-  color: $light;
-  background: $brand-blue;
   border-radius: $radius-normal;
   padding: $sizing-20 $sizing-40;
   font-family: $font-family-helvetica;

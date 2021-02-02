@@ -1,9 +1,9 @@
-import Template from "../components/Template";
-import Hero from "../sections/Hero";
-import Info1 from "../sections/Info1";
-import Info2 from "../sections/Info2";
-import Info3 from "../sections/Info3";
-import Pledge from "../sections/Pledge";
+import Template from "components/groups/Template";
+import Hero from "components/Hero";
+import Info1 from "components/Info1";
+import Info2 from "components/Info2";
+import Info3 from "components/Info3";
+import Pledge from "components/Pledge";
 
 export default function Splash() {
   return (

@@ -1,0 +1,19 @@
+@import "styles/variables.scss";
+
+.section {
+  background: $dark;
+}
+
+.title {
+  color: $light;
+}
+
+.paragraph {
+  margin-bottom: $sizing-40;
+  color: $light;
+}
+
+.button {
+  color: $light;
+  background: $brand-blue;
+}

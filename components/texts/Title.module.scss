@@ -1,4 +1,4 @@
-@import "../styles/variables.scss";
+@import "styles/variables.scss";
 
 .title {
   font-family: $font-family-helvetica;
@@ -8,12 +8,4 @@
   line-height: $line-spacing-64;
   letter-spacing: $letter-spacing-large;
   margin-bottom: $sizing-30;
-}
-
-.on-dark {
-  color: $light;
-}
-
-.on-light {
-  color: $dark-blue;
 }

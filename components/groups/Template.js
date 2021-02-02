@@ -1,7 +1,7 @@
 import Head from "next/head";
-import LogoLongSVG from "../svg/logo-long.svg";
-import LogoSmallSVG from "../svg/logo-small.svg";
-import SocialInstagramSVG from "../svg/social-instagram.svg";
+import LogoLongSVG from "svg/logo-long.svg";
+import LogoSmallSVG from "svg/logo-small.svg";
+import SocialInstagramSVG from "svg/social-instagram.svg";
 import styles from "./Template.module.scss";
 
 export default function Template({

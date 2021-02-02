@@ -1,0 +1,14 @@
+@import "styles/variables.scss";
+
+.section {
+  background: $light;
+}
+
+.paragraph {
+  margin-bottom: $sizing-40;
+  color: $dark;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
