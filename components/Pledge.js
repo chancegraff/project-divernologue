@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { always, identity, ifElse, length, lte, partial, pipe, __ } from "ramda";
 import {
   PLEDGE_TITLE,
   PLEDGE_PARAGRAPH_1,
@@ -6,6 +6,7 @@ import {
   NAME_INPUT_PLACEHOLDER,
   ORGANIZATION_INPUT_PLACEHOLDER,
   SUBMIT_BUTTON_PLACEHOLDER,
+  INPUT_CHAR_LENGTH,
 } from "utils/constants";
 import IllustrationSuccessSVG from "svg/illustration-success.svg";
 import CheckmarkSVG from "svg/icons/checkmark.svg";
@@ -20,10 +21,12 @@ import Input from "./inputs/Input";
 import Button from "./inputs/Button";
 import styles from "./Pledge.module.scss";
 
+const validateCharLength = ifElse(pipe(length, lte(__, INPUT_CHAR_LENGTH)), identity, always(null));
+const createValidatedState = partial(useUserInput, [ validateCharLength ]);
+
 export default function Pledge() {
-  const validateCharLength = useCallback((v) => v.length < 125 && v, []);
-  const [name, changeName] = useUserInput(validateCharLength);
-  const [org, changeOrg] = useUserInput(validateCharLength);
+  const [name, changeName] = createValidatedState();
+  const [org, changeOrg] = createValidatedState();
   const submitPledge = useSubmitPledge(name, org);
 
   return (

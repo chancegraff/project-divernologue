@@ -17,3 +17,5 @@ export const INFO_2_PARAGRAPH_2 = "Neurodiversity affects all of us indiscrimina
 
 export const INFO_3_PARAGRAPH_1 = "Neurodiverse people experience significantly higher rates of unemployment compared to their peers, up to 80% for some groups.";
 export const INFO_3_PARAGRAPH_2 = "They’re 18 times more likely to be disciplined at work, ultimately making them 60% more likely to lose their job. These individuals risk becoming trapped in a vicious cycle of entry level positions.";
+
+export const INPUT_CHAR_LENGTH = 55;
