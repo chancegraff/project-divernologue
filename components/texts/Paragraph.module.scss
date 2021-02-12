@@ -1,0 +1,10 @@
+@import "styles/variables.scss";
+
+.paragraph {
+  font-family: $font-family-helvetica;
+  font-style: $font-style-normal;
+  font-weight: $weight-normal;
+  font-size: $font-size-28;
+  line-height: $line-spacing-45;
+  letter-spacing: $letter-spacing-normal;
+}

@@ -1,0 +1,21 @@
+@import "styles/variables.scss";
+
+.input {
+  width: 100%;
+  border: 0;
+  color: $dark;
+  background: $light;
+  border-radius: $radius-normal;
+  padding: $sizing-20 $sizing-30;
+  font-family: $font-family-helvetica;
+  font-style: $font-style-normal;
+  font-weight: $weight-normal;
+  font-size: $font-size-28;
+  line-height: $line-spacing-45;
+  letter-spacing: $letter-spacing-normal;
+  margin-bottom: $sizing-40;
+
+  &::-moz-placeholder {
+    color: $light-highlight;
+  }
+}

@@ -1,0 +1,11 @@
+@import "styles/variables.scss";
+
+.title {
+  font-family: $font-family-helvetica;
+  font-style: $font-style-normal;
+  font-weight: $weight-bold;
+  font-size: $font-size-52;
+  line-height: $line-spacing-64;
+  letter-spacing: $letter-spacing-large;
+  margin-bottom: $sizing-30;
+}

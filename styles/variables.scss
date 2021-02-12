@@ -1,42 +1,56 @@
-/* Colors: */
+/* Brand colors */
 $brand-blue: #087BEF;
 
+/* Dark colors */
 $dark: #051F3E;
 $dark-blue: #003472;
 $dark-highlight: #1E3652;
 
+/* Light colors */
 $light: #FEFEFE;
 $light-blue: #D9E4FF;
 $light-camel: #FFF6EB;
 $light-highlight: #BECBDB;
 
-/* Font/text values */
-$font-family-normal: Helvetica Neue;
-$font-style-normal: normal;
+/* Sizings */
+$sizing-10: 10px;
+$sizing-20: 20px;
+$sizing-30: 30px;
+$sizing-40: 40px;
+$sizing-50: 50px;
+$sizing-130: 130px;
 
-$font-weight-normal: normal;
-$font-weight-bold: bold;
-$font-weight-medium: medium;
+/* Border corners */
+$radius-normal: 2px;
 
-$font-size-small: 24px;
-$font-size-normal: 28px;
-$font-size-large: 52px;
-
-$character-spacing-small: -0.48px;
-$character-spacing-normal: -0.56px;
-$character-spacing-large: -1.04px;
-
-$line-spacing-small: 40px;
-$line-spacing-normal: 45px;
-$line-spacing-large: 64px;
-
-/* Sizing values */
-$sizing-small: 10px;
-$sizing-normal: 20px;
-$sizing-large: 40px;
-$sizing-xlarge: 130px;
-
-/* Breakpoint values */
+/* Breakpoints */
 $breakpoint-mobile: 600px;
 $breakpoint-tablet: 900px;
 $breakpoint-desktop: 1200px;
+
+/* Font families */
+$font-family-helvetica: Helvetica Neue;
+
+/* Font styles */
+$font-style-normal: normal;
+
+/* Font weights */
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-bold: 700;
+
+/* Font sizes */
+$font-size-24: 24px;
+$font-size-28: 28px;
+$font-size-26: 26px;
+$font-size-52: 52px;
+
+/* Line spacings */
+$line-spacing-40: 40px;
+$line-spacing-45: 45px;
+$line-spacing-64: 64px;
+
+/* Letter spacings */
+$letter-spacing-small: -0.48px;
+$letter-spacing-normal: -0.56px;
+$letter-spacing-large: -1.04px;

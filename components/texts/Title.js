@@ -8,11 +8,10 @@ export const TitleColor = {
 
 export default function Title({
   className,
-  colorName,
   children,
 }) {
   return (
-    <h1 className={classNames(className, styles[colorName])}>
+    <h1 className={classNames(className, styles.title)}>
       {children}
     </h1>
   );
